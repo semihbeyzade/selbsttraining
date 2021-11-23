@@ -25,6 +25,8 @@ footer li a:visited {
     padding: 5px;
     margin: 10%;
 }
+
+
 #tree {
     border-radius: 100%;
     width: 200px;
@@ -41,3 +43,4 @@ footer {
 .list li {
     text-decoration: line-through;
 }
+
