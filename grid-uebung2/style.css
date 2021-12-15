@@ -1,0 +1,39 @@
+html{
+    box-sizing: border-box;
+  }
+  *,
+  *::before,
+  *::after {
+    box-sizing: inherit;
+  }
+  html,
+  body {
+    height: 100%;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+  } 
+
+  /* .container {
+      display: grid;
+      grid-template-rows: 1fr 1fr 1fr;
+      grid-template-columns: 1fr 1fr 1fr;
+      gap: 1rem 1rem;
+  }
+
+  .box img {
+      width: 100%;
+  } */
+
+  .container {
+      display: grid;
+      grid-template-rows: 1fr 1fr 1fr;
+      grid-template-columns: minmax(100px, 350px) 1fr minmax(100px, 350px);
+      gap: 1rem 1rem;
+  }
+
+  .box img {
+      width: 100%;
+ } 
+ 
+ 
